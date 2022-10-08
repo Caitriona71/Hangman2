@@ -71,3 +71,5 @@ def printWord(guessedLetters):
 
 def printDashes():
    print("\r")
+   for char in randomWord:
+      print("\u203E", end=" ")
