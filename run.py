@@ -59,3 +59,4 @@ def show_hangman(incorrect):
 
 def printWord(guessedLetters):
     counter=0
+    correctLetters=0
