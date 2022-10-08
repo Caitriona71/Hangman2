@@ -77,3 +77,4 @@ def printDashes():
 length_of_secret_word = len(randomWord)
 attempts_wrong = 0
 current_guess_index = 0
+current_letters_guessed = []
