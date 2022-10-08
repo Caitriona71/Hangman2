@@ -55,4 +55,6 @@ def show_hangman(incorrect):
        print(" O   |")
        print("/|\  |")
        print("/ \  |")
-       print("    ===")                                   
+       print("    ===")
+
+def printWord(guessedLetters):
