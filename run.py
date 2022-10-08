@@ -65,3 +65,4 @@ def printWord(guessedLetters):
          print(randomWord[counter], end=" ")
       else:
          print(" ", end=" ")
+      counter+=1
