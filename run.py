@@ -82,3 +82,5 @@ current_letters_correct = 0
 
 while(attempts_wrong != 6 and current_letters_correct != length_of_secret_word):
    print("\nLetters guessed so far: ")
+   for letter in current_letters_guessed:
+   
