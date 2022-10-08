@@ -73,3 +73,5 @@ def printDashes():
    print("\r")
    for char in randomWord:
       print("\u203E", end=" ")
+
+length_of_secret_word = len(randomWord)
