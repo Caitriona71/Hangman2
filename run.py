@@ -85,3 +85,6 @@ while(attempts_wrong != 6 and current_letters_correct != length_of_secret_word):
    for letter in current_letters_guessed:
       print(letter, end=" ")
    
+   ### Prompt user for input
+   letterGuessed = input("\nGuess a letter:")
+   
