@@ -12,3 +12,5 @@ randomWord = random.choice(word_list)
 
 for x in randomWord:
     print("_", end=" ")
+
+def show_hangman(incorrect):
