@@ -68,3 +68,5 @@ def printWord(guessedLetters):
          print(" ", end=" ")
       counter+=1
     return correctLetters
+
+def printDashes():
