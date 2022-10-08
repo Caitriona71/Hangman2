@@ -66,3 +66,4 @@ def printWord(guessedLetters):
       else:
          print(" ", end=" ")
       counter+=1
+    return correctLetters
