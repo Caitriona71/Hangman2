@@ -63,6 +63,7 @@ def printWord(guessedLetters):
     for char in randomWord:
       if(char in guessedLetters):
          print(randomWord[counter], end=" ")
+         correctLetters+=1
       else:
          print(" ", end=" ")
       counter+=1
