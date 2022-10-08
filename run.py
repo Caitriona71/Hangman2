@@ -75,3 +75,4 @@ def printDashes():
       print("\u203E", end=" ")
 
 length_of_secret_word = len(randomWord)
+attempts_wrong = 0
