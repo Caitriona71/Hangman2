@@ -4,3 +4,5 @@
 import random
 
 from words import word_list
+
+print("Let's play hangman")
