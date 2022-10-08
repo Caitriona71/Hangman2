@@ -6,3 +6,6 @@ import random
 from words import word_list
 
 print("Let's play hangman")
+
+### Choose a random word
+randomWord = random.choice(word_list)
