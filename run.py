@@ -62,3 +62,4 @@ def printWord(guessedLetters):
     correctLetters=0
     for char in randomWord:
       if(char in guessedLetters):
+         print(randomWord[counter], end=" ")
