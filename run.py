@@ -63,3 +63,5 @@ def printWord(guessedLetters):
     for char in randomWord:
       if(char in guessedLetters):
          print(randomWord[counter], end=" ")
+      else:
+         print(" ", end=" ")
