@@ -70,3 +70,4 @@ def printWord(guessedLetters):
     return correctLetters
 
 def printDashes():
+   print("\r")
