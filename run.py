@@ -58,3 +58,4 @@ def show_hangman(incorrect):
        print("    ===")
 
 def printWord(guessedLetters):
+    counter=0
