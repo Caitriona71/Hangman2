@@ -87,4 +87,10 @@ while(attempts_wrong != 6 and current_letters_correct != length_of_secret_word):
    
    ### Prompt user for input
    letterGuessed = input("\nGuess a letter:")
+
+   ### User is correct
+   if(randomWord[current_guess_index]) == letterGuessed):
+
+
+   
    
