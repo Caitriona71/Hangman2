@@ -91,6 +91,8 @@ while(attempts_wrong != 6 and current_letters_correct != length_of_secret_word):
    ### User is correct
    if(randomWord[current_guess_index]) == letterGuessed):
       print_show_hangman(attempts_wrong)
+      ### Print random word
+      current_guess_index+=1
 
 
    
