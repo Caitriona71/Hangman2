@@ -96,6 +96,9 @@ while(attempts_wrong != 6 and current_letters_correct != length_of_secret_word):
       current_letters_guessed.append(letterGuessed)
       current_letters_correct = printWord(current_letters_guessed)
       printDashes()
+      ###User is wrong
+      else:
+         attempts_wrong+=1
 
 
    
