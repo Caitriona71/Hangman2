@@ -104,6 +104,7 @@ while(attempts_wrong != 6 and current_letters_correct != length_of_secret_word):
          print_show_hangman(attempts_wrong)
          ### Print word
          current_letters_correct = printWord(current_letters_guessed)
+         printDashes()
 
 
    
