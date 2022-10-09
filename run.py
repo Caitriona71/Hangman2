@@ -100,6 +100,8 @@ while(attempts_wrong != 6 and current_letters_correct != length_of_secret_word):
       else:
          attempts_wrong+=1
          current_letters_guessed.append(letterGuessed)
+         ### Update the show hangman image
+         print_show_hangman(attempts_wrong)
 
 
    
